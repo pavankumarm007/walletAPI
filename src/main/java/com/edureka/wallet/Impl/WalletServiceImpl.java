@@ -16,7 +16,7 @@ public class WalletServiceImpl implements WalletService {
 	@Override
 	public WalletDto doTransaction(PaymentTransactionDto transaction) {
 		logger.info("Transaction request received = {} ", transaction);
-		// Implementation updated by Branch2
+		// Implementation updated by branch1 and Branch2
 		return null;
 	}
 
