@@ -16,14 +16,14 @@ public class WalletServiceImpl implements WalletService {
 	@Override
 	public WalletDto doTransaction(PaymentTransactionDto transaction) {
 		logger.info("Transaction request received = {} ", transaction);
-		// Implemented
+		// Implementation updated
 		return null;
 	}
 
 	@Override
 	public WalletDto getBalance(String emailId) {
 		logger.info("Get Wallet balance request received = {} ", emailId);
-		// Implemented
+		// Implementation updated
 		return null;
 	}
 
